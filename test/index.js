@@ -1,9 +1,11 @@
-var assert = require('assert');
+'use strict';
+
 var fs = require('fs');
 var join = require('path').join;
 
 var transform = require('../');
 
+var output;
 var failed = false;
 
 function assertEqual(output, expected) {
