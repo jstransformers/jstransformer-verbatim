@@ -1,7 +1,7 @@
 'use strict';
 
 exports.name = 'verbatim';
-exports.outputFormat = 'xml';
+exports.outputFormat = 'html';
 
 exports.render = function (str) {
   return '\n' + str + '\n';
