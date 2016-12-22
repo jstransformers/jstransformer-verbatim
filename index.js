@@ -4,5 +4,5 @@ exports.name = 'verbatim'
 exports.outputFormat = 'html'
 
 exports.render = function (str) {
-  return str
+  return '\n' + str + '\n'
 }

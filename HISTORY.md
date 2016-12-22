@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1: 2016-12-22
+
+- Restored new line before and after string
+
 ## v1.1.0: 2016-12-19
 
 - Update Boilerplate
