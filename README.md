@@ -15,7 +15,7 @@ Transformer that acts as a transparent pass-through, but adds new lines on both 
 ## API
 
 ```js
-var verbatim = require('jstransformer')(require('jstransformer-verbatim'));
+var verbatim = require('jstransformer')(require('jstransformer-verbatim'))
 
 verbatim.render('blah').body
 //=> 'blah'
